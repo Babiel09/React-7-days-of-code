@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    z-index: 50;
+  
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+  
+      .image {
+        display: flex;
+        align-items: center;
+      }
+  
+      .link {
+        display: flex;
+        gap: 20px; // Espaçamento entre os links
+  
+        a {
+          font-size: 1.2rem;
+          text-decoration: none;
+          color: black;
+  
+          &:hover {
+            color: #e0a100; // Ajuste a cor para algo próximo ao da imagem
+          }
+        }
+      }
+    }
+  }
+  
