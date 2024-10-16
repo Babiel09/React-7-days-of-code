@@ -55,7 +55,18 @@
         transition: background-color 0.3s ease;
 
         &:hover {
-            background-color: #d69300;
+            background: rgb(236, 169, 43);
         }
     }
 }
+.Arvore {
+    position: absolute;
+    left: 25rem; 
+    bottom: 0;  
+    z-index: -1; 
+    img {
+        max-width: 600px;  
+        height: auto;
+    }
+}
+

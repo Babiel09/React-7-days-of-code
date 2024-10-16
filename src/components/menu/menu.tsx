@@ -11,11 +11,16 @@ export default function Menu() {
           <Image src={Logo} alt="Logo do site" width={150} />
         </div>
         <div className={styles.link}>
-          <Link href={"#"}>Como fazer /</Link>
-          <Link href={"#"}>Ofertas /</Link>
-          <Link href={"#"}>Depoimentos /</Link>
-          <Link href={"#"}>Vídeos /</Link>
-          <Link href={"#"}>Meu carrinho /</Link>
+          <Link href={"#"}>Como fazer </Link>
+          /
+          <Link href={"#"}>Ofertas</Link>
+          /
+          <Link href={"#"}>Depoimentos</Link>
+          /
+          <Link href={"#"}>Vídeos</Link>
+          /
+          <Link href={"#"}>Meu carrinho </Link>
+          /
         </div>
       </nav>
     </header>

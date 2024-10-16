@@ -1,12 +1,9 @@
-import Image from "next/image";
-import Assinatura from "../components/newsletter/assinatura";
+import Main from '@/src/components/main'
 
 export default function Home() {
   return (
     <>
-      <div>
-        <Assinatura/>
-      </div>
+      <Main/>
     </>
   );
 }

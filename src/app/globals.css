@@ -1,3 +1,7 @@
-*{
+body{
     background-color: #f8f4f4;
+    background-image: url('../assets/body-shape.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    background-size: contain; 
 }

@@ -26,7 +26,14 @@
           color: black;
   
           &:hover {
-            color: #e0a100; // Ajuste a cor para algo próximo ao da imagem
+            box-shadow: 1px 1px rgb(236, 169, 43),
+            2px 2px rgb(236, 169, 43), 
+            3px 3px rgb(236, 169, 43),
+            4px 4px rgb(236, 169, 43),
+            5px 5px rgb(236, 169, 43),
+            6px 6px rgb(236, 169, 43),
+            2px 2px rgb(236, 169, 43);
+            transform: translateX(-3px);
           }
         }
       }

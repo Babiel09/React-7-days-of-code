@@ -1,6 +1,10 @@
 "use client";
 import { useState } from "react";
 import styles from "./assinatura.module.scss";
+import Arvore from '@/src/assets/hero-image.png'
+import Image from "next/image";
+
+
 export default function Assinatura() {
   const [isInput, setIsInput] = useState<string>("");
   return (
@@ -36,6 +40,13 @@ export default function Assinatura() {
           Assinar newsletter
           </button>
         </form>
+      </div>
+      <div className={styles.Arvore}>
+      <Image
+        src={Arvore}
+        alt="Imagem de uma árvore"
+        layout="responsive"
+        />
       </div>
     </div>
   );
