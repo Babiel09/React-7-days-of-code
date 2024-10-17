@@ -11,7 +11,7 @@ export default function Assinatura() {
 
     const handleEnivarFormulario = (evento: React.FormEvent<HTMLFormElement>) => {
       evento.preventDefault()
-      alert(`Obrigado pela sua assinatura, você receberá nossas novidades no e-mail ${isInput}.`)
+      alert(`Obrigado pela sua assinatura, você receberá nossas novidades para o e-mail ${isInput}.`)
       setIsInput("")
     }
   return (
