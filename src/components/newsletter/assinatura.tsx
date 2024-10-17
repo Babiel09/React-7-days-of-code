@@ -7,6 +7,13 @@ import Image from "next/image";
 
 export default function Assinatura() {
   const [isInput, setIsInput] = useState<string>("");
+
+
+    const handleEnivarFormulario = (evento: React.FormEvent<HTMLFormElement>) => {
+      evento.preventDefault()
+      alert(`Obrigado pela sua assinatura, você receberá nossas novidades no e-mail ${isInput}.`)
+      setIsInput("")
+    }
   return (
     <div>
       <div className={styles.Titulo}>
@@ -25,7 +32,7 @@ export default function Assinatura() {
         </p>
       </div>
       <div className={styles.inputButton}>
-        <form action="post">
+        <form action="post" onSubmit={handleEnivarFormulario}>
 
         <input
           type="email"
